@@ -11,7 +11,7 @@ const Hero = () => {
         className="
         hidden md:block
         absolute inset-0
-        bg-[url('/images/hero3.webp')]
+        bg-[url('/images/hero.webp')]
         bg-no-repeat
         bg-right
         md:bg-[length:80%] lg:bg-[length:60%]

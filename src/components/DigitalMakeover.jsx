@@ -22,7 +22,7 @@ const DigitalMakeover = () => {
                             alt={step.icon}
                         />
                         </div>
-                        <h3 className="text-lg font-semibold text-main">
+                        <h3 className="text-lg font-semibold py-3 text-main">
                         {step.title}
                         </h3>
                     <p className="text-gray-600 leading-relaxed">

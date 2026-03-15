@@ -8,7 +8,7 @@ const TransformationCard = ({ title, sign, image, afterMode, data }) => {
       <div
         className="w-full aspect-[16/9] bg-center bg-cover"
         style={{
-          backgroundImage: `url(/images/${image}11.png)`,
+          backgroundImage: `url(/images/${image}.png)`,
           filter: "contrast(0.95) saturate(0.95)"
         }}
       />
