@@ -1,10 +1,13 @@
+import Squares from "./Squares";
+
 const TransformationCard = ({ title, sign, image, afterMode, data }) => {
 
   const bg = afterMode ? "bg-main text-light" : "bg-gray-100 text-main";
   const signColor = afterMode ? "text-grass" : "text-danger";
 
   return (
-    <div className={`${bg} rounded-xl shadow-md hover:shadow-xl py-4 hover:scale-[1.02] transition-all duration-300 overflow-hidden`}>
+    <div className={`${bg} relative rounded-xl shadow-md hover:shadow-xl py-4 hover:scale-[1.02] transition-all duration-300 overflow-hidden`}>
+      <Squares />
       <div
         className="w-full aspect-[16/9] bg-center bg-cover"
         style={{
@@ -12,7 +15,7 @@ const TransformationCard = ({ title, sign, image, afterMode, data }) => {
           filter: "contrast(0.95) saturate(0.95)"
         }}
       />
-      <div className="place-items-center">
+      <div className="relative z-10 place-items-center">
         <h3 className="text-lg font-semibold py-3">
           {title}
         </h3>

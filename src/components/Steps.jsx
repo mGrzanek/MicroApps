@@ -16,7 +16,7 @@ const Steps = () => {
                     <h3 className="font-semibold text-lg text-main mb-2">
                         {step.title}
                     </h3>
-                    <p className="text-gray-600 font-medium px-2 text-sm">
+                    <p className="text-gray-600 font-medium px-2">
                         {step.description}
                     </p>
                     </div>

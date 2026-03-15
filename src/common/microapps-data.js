@@ -20,7 +20,7 @@ export const steps = [
 
 export const stepsToSuccess = [
     {
-        title: "Konsultacja (30 min)",
+        title: "Konsultacja",
         description: "Rozumiemy Twój biznes i analizujemy potrzeby",
     },
     {
@@ -51,7 +51,7 @@ export const squares = [
 ];
 
 export const beforeData = {
-    title: "Obecna strona", 
+    title: "Twoja obecna strona", 
     image: "before_website",
     sign: "X",
     afterMode: false,
@@ -65,7 +65,7 @@ export const beforeData = {
 };
 
 export const afterData = { 
-    title: "Strona z MicroApps",
+    title: "Twoja nowa strona z MicroApps",
     image: "after_website",
     sign: "✓",
     afterMode: true,

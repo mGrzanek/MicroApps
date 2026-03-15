@@ -32,7 +32,7 @@ Landing składa się z kilku sekcji:
 - **Krok po kroku** – pokazuje proces współpracy w czterech krokach
 - **Transformacja** – pokazuje różnicę między starą stroną, a nowoczesną stroną z automatyzacją.
 - **Dla kogo** – pokazuje główną grupę odbiorców produktu
-- **CTA** – jako zachęta do umówienia konsultacji
+- **CTA** – jako zachęta do umówienia konsultacji przenosi na podstronę z formularzem lub podstronę z pakietami oferty
 
 
 ## Technologie

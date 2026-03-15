@@ -3,7 +3,7 @@ const SectionHeading = ({ children }) => {
     <div className="flex items-center justify-center mb-8">
       <div className="flex-grow border-t border-gray-300"></div>
 
-      <h2 className="mx-6 font-inter text-2xl md:text-3xl place-items-center font-semibold text-main">
+      <h2 className="mx-6 font-inter uppercase text-xl md:text-2xl place-items-center font-extrabold text-main">
         {children}
       </h2>
 

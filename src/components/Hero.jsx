@@ -6,7 +6,7 @@ import { offer } from "../common/microapps-data";
 const Hero = () => {
   return (
     <section className="relative min-h-[80vh] overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-[#0a1628] via-[#0d2847] to-[#1a4a7a]" />
+      <div className="absolute inset-0 bg-gradient-to-br from-[#0a1628] via-[#0d2847] to-[#1a4a7a] " />
       <div
         className="
         hidden md:block
@@ -15,12 +15,13 @@ const Hero = () => {
         bg-no-repeat
         bg-right
         md:bg-[length:80%] lg:bg-[length:60%]
+        [mask-image:linear-gradient(to_bottom,transparent_0%,black_20%,black_80%,transparent_100%)]
         "
       />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_75%_55%,rgba(59,130,246,0.25)_0%,transparent_60%)]" />
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_50%_60%_at_75%_50%,rgba(30,90,140,0.3)_0%,transparent_60%),linear-gradient(to_right,#0a1628_0%,#0a1628_30%,rgba(10,22,40,0.95)_40%,rgba(13,40,71,0.7)_50%,rgba(13,40,71,0.3)_60%,transparent_75%),linear-gradient(to_top,#0d2847_0%,rgba(13,40,71,0.9)_15%,rgba(13,40,71,0.3)_35%,transparent_50%),linear-gradient(to_bottom,rgba(10,22,40,0.9)_0%,rgba(10,22,40,0.5)_15%,transparent_35%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_60%_at_75%_50%,rgba(30,90,140,0.3)_0%,transparent_60%),linear-gradient(to_right,#0a1628_0%,#0a1628_30%,rgba(10,22,40,0.95)_40%,rgba(13,40,71,0.7)_50%,rgba(13,40,71,0.3)_60%,transparent_75%),linear-gradient(to_top,#0d2847_0%,rgba(13,40,71,0.9)_15%,rgba(13,40,71,0.3)_35%,transparent_50%),linear-gradient(to_bottom,rgba(10,22,40,0.9)_0%,rgba(10,22,40,0.5)_15%,transparent_35%)]" />
       <Squares />
-      <div className="relative z-10 mx-auto max-w-7xl mt-2 px-6 lg:px-8 flex min-h-[70vh] items-center pt-10 pb-16">
+      <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8 flex min-h-[70vh] items-center pt-10 pb-16">
         <div>
         <h2 className="text-light/70 font-semibold">MicroApps - Digital Makeover as a Service</h2>
           <h1 className="text-3xl md:text-4xl lg:text-5xl py-5 max-w-5xl font-bold text-light leading-tight">
