@@ -22,8 +22,8 @@ const Hero = () => {
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_60%_at_75%_50%,rgba(30,90,140,0.3)_0%,transparent_60%),linear-gradient(to_right,#0a1628_0%,#0a1628_30%,rgba(10,22,40,0.95)_40%,rgba(13,40,71,0.7)_50%,rgba(13,40,71,0.3)_60%,transparent_75%),linear-gradient(to_top,#0d2847_0%,rgba(13,40,71,0.9)_15%,rgba(13,40,71,0.3)_35%,transparent_50%),linear-gradient(to_bottom,rgba(10,22,40,0.9)_0%,rgba(10,22,40,0.5)_15%,transparent_35%)]" />
       <Squares />
       <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8 flex min-h-[70vh] items-center pt-10 pb-16">
-        <div>
-        <h2 className="text-light/70 font-semibold">MicroApps - Digital Makeover as a Service</h2>
+        <div className="px-4">
+          <h2 className="text-light/70 font-semibold">MicroApps - Digital Makeover as a Service</h2>
           <h1 className="text-3xl md:text-4xl lg:text-5xl py-5 max-w-5xl font-bold text-light leading-tight">
             Przyciągaj klientów, oszczędzaj czas i napędzaj swój biznes
           </h1>

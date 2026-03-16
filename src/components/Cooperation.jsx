@@ -10,7 +10,7 @@ const Cooperation = () => {
                 <SectionHeading>Dla kogo?</SectionHeading>
                 <div className="place-items-center"><Checkpoints arr={clients} txtColor="main" /></div>
             </div>
-             <div className="grid place-items-center py-5"><ActionButtons /></div>
+             <div className="grid place-items-center px-4 py-5"><ActionButtons /></div>
         </section>
     );
 }
